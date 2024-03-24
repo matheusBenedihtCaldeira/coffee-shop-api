@@ -1,12 +1,16 @@
 {
   "name": "otho-brew-coffee-api",
-  "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "private": true,
+  "description": "A coffee shop app",
+  "license": "MIT",
+  "author": {
+    "name": "Matheus Benediht Caldeira"
+  },
   "scripts": {
+    "build": "strapi build",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -21,15 +25,11 @@
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "01c6589a-c76c-4305-b5b7-cdfe3164b118"
-  },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "strapi": {
+    "uuid": "01c6589a-c76c-4305-b5b7-cdfe3164b118"
+  }
 }
